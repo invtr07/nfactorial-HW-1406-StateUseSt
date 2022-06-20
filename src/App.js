@@ -122,6 +122,7 @@ function App() {
         />
         {/* Item-status-filter */}
         <div className="btn-group">
+
           {buttons.map((item) => (
             <button
               onClick={() => handleFilterItems(item.type)}
@@ -148,7 +149,7 @@ function App() {
                   onClick={() => handleItemDone(item)}
                 >
                   {item.label}
-                </span>
+                </span>k
 
                 <button
                   type="button"
