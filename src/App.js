@@ -6,15 +6,15 @@ import React from 'react';
 // button-group
 const buttons = [
   {
-    type: "all",
+    name: "all",
     label: "All",
   },
   {
-    type: "active",
+    name: "all",
     label: "Active",
   },
   {
-    type: "done",
+    name: "all",
     label: "Done",
   },
 ];
